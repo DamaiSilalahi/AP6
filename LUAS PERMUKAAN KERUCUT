@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    const float phi = 3.14;
+    float r,sisi,lp;
+
+    cout<<"Masukkan jari-jari: ";
+    cin>>r;
+
+    cout<<"Masukkan sisi: ";
+    cin>>sisi;
+    
+    lp=phi*r*(r+sisi);
+
+    cout<<"Luas permukaan ="<<lp<<endl;
+
+
+}
